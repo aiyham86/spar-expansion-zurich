@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_252018bd4127e21c5e60011da68eb230 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_252018bd4127e21c5e60011da68eb230" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_252018bd4127e21c5e60011da68eb230 = L.map(
+                "map_252018bd4127e21c5e60011da68eb230",
+                {
+                    center: [47.3769, 8.5417],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7b72de8738891dffd6e655cda15bfdc5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7b72de8738891dffd6e655cda15bfdc5.addTo(map_252018bd4127e21c5e60011da68eb230);
+        
+    
+            var marker_cluster_d9a070f2bc77433c17855c70b3adbb0e = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_5b702fdcbf5a99b5865326942d75b39e = L.marker(
+                [47.33, 8.615000000000023],
+                {
+}
+            ).addTo(marker_cluster_d9a070f2bc77433c17855c70b3adbb0e);
+        
+    
+            var div_icon_454d585c1533435f36066a5fd696d813 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_5b702fdcbf5a99b5865326942d75b39e.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.400<br>SPAR nearby: 0.0<br>Competitors nearby: 0.0<br>Dist to SPAR: 6277m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b702fdcbf5a99b5865326942d75b39e.setIcon(div_icon_454d585c1533435f36066a5fd696d813);
+            
+    
+            var marker_5fc436adda1650d009ab717c8c97e131 = L.marker(
+                [47.33, 8.610000000000023],
+                {
+}
+            ).addTo(marker_cluster_d9a070f2bc77433c17855c70b3adbb0e);
+        
+    
+            var div_icon_916c3bdbddba6ad615e88b549341fd92 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_5fc436adda1650d009ab717c8c97e131.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.375<br>SPAR nearby: 0.0<br>Competitors nearby: 0.0<br>Dist to SPAR: 5948m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5fc436adda1650d009ab717c8c97e131.setIcon(div_icon_916c3bdbddba6ad615e88b549341fd92);
+            
+    
+            var marker_6d3221f012316ed4aae7564d4821b12e = L.marker(
+                [47.335, 8.615000000000023],
+                {
+}
+            ).addTo(marker_cluster_d9a070f2bc77433c17855c70b3adbb0e);
+        
+    
+            var div_icon_131a49a6931d0a89bf3e8e7c55d33525 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_6d3221f012316ed4aae7564d4821b12e.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.362<br>SPAR nearby: 0.0<br>Competitors nearby: 0.0<br>Dist to SPAR: 5892m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6d3221f012316ed4aae7564d4821b12e.setIcon(div_icon_131a49a6931d0a89bf3e8e7c55d33525);
+            
+    
+            var marker_52c3ed848c520256cad5c42e0c04e573 = L.marker(
+                [47.43000000000005, 8.615000000000023],
+                {
+}
+            ).addTo(marker_cluster_d9a070f2bc77433c17855c70b3adbb0e);
+        
+    
+            var div_icon_213300e1b0c6f6af531326c870fd8a61 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_52c3ed848c520256cad5c42e0c04e573.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.354<br>SPAR nearby: 0.0<br>Competitors nearby: 0.0<br>Dist to SPAR: 5776m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_52c3ed848c520256cad5c42e0c04e573.setIcon(div_icon_213300e1b0c6f6af531326c870fd8a61);
+            
+    
+            var marker_1958c08e1b707f713255a665c6ddb4cc = L.marker(
+                [47.33, 8.605000000000022],
+                {
+}
+            ).addTo(marker_cluster_d9a070f2bc77433c17855c70b3adbb0e);
+        
+    
+            var div_icon_aca346ed7153e78faf16fc36b1ef7712 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_1958c08e1b707f713255a665c6ddb4cc.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.349<br>SPAR nearby: 0.0<br>Competitors nearby: 0.0<br>Dist to SPAR: 5589m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1958c08e1b707f713255a665c6ddb4cc.setIcon(div_icon_aca346ed7153e78faf16fc36b1ef7712);
+            
+    
+            var marker_9cc624a9b5853ded7e3bffa48cd4a358 = L.marker(
+                [47.335, 8.610000000000023],
+                {
+}
+            ).addTo(marker_cluster_d9a070f2bc77433c17855c70b3adbb0e);
+        
+    
+            var div_icon_aeb12f92fb7186231c4fec5930e679b9 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_9cc624a9b5853ded7e3bffa48cd4a358.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.340<br>SPAR nearby: 0.0<br>Competitors nearby: 0.0<br>Dist to SPAR: 5616m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9cc624a9b5853ded7e3bffa48cd4a358.setIcon(div_icon_aeb12f92fb7186231c4fec5930e679b9);
+            
+    
+            var marker_279d386d89b295f6548b33b613c1686e = L.marker(
+                [47.42500000000005, 8.615000000000023],
+                {
+}
+            ).addTo(marker_cluster_d9a070f2bc77433c17855c70b3adbb0e);
+        
+    
+            var div_icon_7b126f23e928a480f287684ce4f2acaa = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_279d386d89b295f6548b33b613c1686e.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.335<br>SPAR nearby: 0.0<br>Competitors nearby: 0.0<br>Dist to SPAR: 5668m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_279d386d89b295f6548b33b613c1686e.setIcon(div_icon_7b126f23e928a480f287684ce4f2acaa);
+            
+    
+            var marker_78cd1dadedfad47a080b87b524f81667 = L.marker(
+                [47.34, 8.615000000000023],
+                {
+}
+            ).addTo(marker_cluster_d9a070f2bc77433c17855c70b3adbb0e);
+        
+    
+            var div_icon_b9da6ef543438079f4338670906a4e6a = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_78cd1dadedfad47a080b87b524f81667.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.326<br>SPAR nearby: 0.0<br>Competitors nearby: 0.0<br>Dist to SPAR: 5537m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_78cd1dadedfad47a080b87b524f81667.setIcon(div_icon_b9da6ef543438079f4338670906a4e6a);
+            
+    
+            var marker_58fd5d1fa2b037b5807d1f11461d6dba = L.marker(
+                [47.43000000000005, 8.610000000000023],
+                {
+}
+            ).addTo(marker_cluster_d9a070f2bc77433c17855c70b3adbb0e);
+        
+    
+            var div_icon_64944a96051bd55b235f499d28b8dd6b = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_58fd5d1fa2b037b5807d1f11461d6dba.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.326<br>SPAR nearby: 0.0<br>Competitors nearby: 0.0<br>Dist to SPAR: 5411m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_58fd5d1fa2b037b5807d1f11461d6dba.setIcon(div_icon_64944a96051bd55b235f499d28b8dd6b);
+            
+    
+            var marker_7b249b778cff064d58d9b4edc6c7ea74 = L.marker(
+                [47.33, 8.600000000000021],
+                {
+}
+            ).addTo(marker_cluster_d9a070f2bc77433c17855c70b3adbb0e);
+        
+    
+            var div_icon_180d348fbaf6484ed24b8f096261cab1 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_7b249b778cff064d58d9b4edc6c7ea74.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.324<br>SPAR nearby: 0.0<br>Competitors nearby: 0.0<br>Dist to SPAR: 5232m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7b249b778cff064d58d9b4edc6c7ea74.setIcon(div_icon_180d348fbaf6484ed24b8f096261cab1);
+            
+    
+            marker_cluster_d9a070f2bc77433c17855c70b3adbb0e.addTo(map_252018bd4127e21c5e60011da68eb230);
+        
+</script>
+</html>

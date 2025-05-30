@@ -1,0 +1,4019 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-29T15:30:52Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27580759",
+        "ele": "590",
+        "light_rail": "yes",
+        "name": "Waldburg",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WALG",
+        "station": "light_rail",
+        "uic_name": "Waldburg",
+        "uic_ref": "8503078",
+        "wheelchair": "no",
+        "wikidata": "Q33456136"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5930969,
+          47.3454892
+        ]
+      },
+      "id": "node/27580759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27580765",
+        "check_date": "2024-12-09",
+        "ele": "602",
+        "light_rail": "yes",
+        "name": "Spital Zollikerberg",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SPIT",
+        "station": "light_rail",
+        "uic_name": "Spital Zollikerberg",
+        "uic_ref": "8503077",
+        "wheelchair": "yes",
+        "wikidata": "Q33456111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5970611,
+          47.347331
+        ]
+      },
+      "id": "node/27580765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29542965",
+        "alt_name": "Polybahn (Talstation)",
+        "ele": "411.09",
+        "funicular": "yes",
+        "name": "Central Polybahn",
+        "nat_name": "Zürich, Central Polybahn",
+        "network": "ZVV",
+        "operator": "PBZ",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "6217",
+        "ref_name": "Zürich, Central Polybahn",
+        "station": "funicular",
+        "uic_name": "Zürich Central (Polybahn)",
+        "uic_ref": "8503499",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544172,
+          47.3765183
+        ]
+      },
+      "id": "node/29542965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29542967",
+        "alt_name": "Polybahn (Bergstation)",
+        "check_date:wheelchair": "2021-11-27",
+        "ele": "448.76",
+        "funicular": "yes",
+        "name": "Polyterrasse ETH",
+        "nat_name": "Zürich, Polyterasse ETH",
+        "network": "ZVV",
+        "operator": "PBZ",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "1896",
+        "ref_name": "Zürich, Polyterasse ETH",
+        "station": "funicular",
+        "uic_name": "Zürich Polyterrasse",
+        "uic_ref": "8503500",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5463207,
+          47.3768321
+        ]
+      },
+      "id": "node/29542967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/36258964",
+        "ele": "606",
+        "name": "Bergstation Dolderbahn",
+        "nat_name": "Zürich, Bergstation Dolderbahn",
+        "network": "ZVV",
+        "operator": "VBZ/DBZ",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "459",
+        "ref_name": "Zürich, Bergstation Dolderbahn",
+        "train": "yes",
+        "uic_name": "Zürich, Dolder",
+        "uic_ref": "8503084",
+        "wheelchair": "yes",
+        "wikidata": "Q33514141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5746371,
+          47.3731699
+        ]
+      },
+      "id": "node/36258964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/102387395",
+        "alt_name": "Seilbahn Rigiblick (Bergstation)",
+        "ele": "585.07",
+        "funicular": "yes",
+        "name": "Rigiblick",
+        "network": "ZVV",
+        "operator": "VBZ",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "2090",
+        "station": "funicular",
+        "uic_name": "Zürich, Rigiblick",
+        "uic_ref": "8530473",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5533362,
+          47.3873301
+        ]
+      },
+      "id": "node/102387395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/130246905",
+        "alt_name": "Seilbahn Rigiblick (Talstation)",
+        "ele": "489.47",
+        "funicular": "yes",
+        "name": "Seilbahn Rigiblick",
+        "network": "ZVV",
+        "operator": "VBZ",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "2367",
+        "station": "funicular",
+        "uic_name": "Zürich, Seilbahn Rigiblick",
+        "uic_ref": "8591362",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5489474,
+          47.3858838
+        ]
+      },
+      "id": "node/130246905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/307391788",
+        "ele": "507",
+        "name": "Elgg",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "EL",
+        "uic_name": "Elgg",
+        "uic_ref": "8506014",
+        "wikidata": "Q5359988",
+        "wikimedia_commons": "Category:Elgg railway station",
+        "wikipedia": "en:Elgg railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8633303,
+          47.4984794
+        ]
+      },
+      "id": "node/307391788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/762194590",
+        "ele": "639",
+        "name": "Bauma",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BMA",
+        "uic_name": "Bauma",
+        "uic_ref": "8503134",
+        "wheelchair": "yes",
+        "wikidata": "Q10640358"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.878214,
+          47.3688189
+        ]
+      },
+      "id": "node/762194590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/984762323",
+        "ele": "604",
+        "light_rail": "yes",
+        "name": "Neuhaus bei Hinteregg",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "NHBH",
+        "station": "light_rail",
+        "toilets:wheelchair": "no",
+        "uic_name": "Neuhaus bei Hinteregg",
+        "uic_ref": "8503072",
+        "wheelchair": "yes",
+        "wikidata": "Q33456040"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6741608,
+          47.3127233
+        ]
+      },
+      "id": "node/984762323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1060554622",
+        "ele": "445",
+        "name": "Römerhof",
+        "nat_name": "Zürich, Römerhof",
+        "network": "ZVV",
+        "operator": "VBZ/DBZ",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "ref": "2124",
+        "ref_name": "Zürich, Römerhof",
+        "train": "yes",
+        "uic_name": "Zürich, Römerhof (DBZ)",
+        "uic_ref": "8519525",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5608667,
+          47.3684437
+        ]
+      },
+      "id": "node/1060554622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1189482494",
+        "addr:city": "Zürich",
+        "addr:postcode": "8050",
+        "ele": "442",
+        "name": "Zürich Oerlikon",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZOER",
+        "train": "yes",
+        "uic_name": "Zürich Oerlikon",
+        "uic_ref": "8503006",
+        "wheelchair": "yes",
+        "wikidata": "Q194887"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5441507,
+          47.4114986
+        ]
+      },
+      "id": "node/1189482494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1191403583",
+        "elevator": "yes",
+        "funicular": "yes",
+        "halt": "monorail",
+        "level": "-1",
+        "name": "Dock E",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "station": "funicular",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5550495,
+          47.4611582
+        ]
+      },
+      "id": "node/1191403583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1219787004",
+        "addr:city": "Dietikon",
+        "ele": "388",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Dietikon",
+        "network": "ZVV",
+        "network:wikidata": "Q636091",
+        "opening_hours": "Mo-Fr 6:30-19:15; Sa-Su 7:15-18:15",
+        "operator": "SBB",
+        "operator:wikidata": "Q83835",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "DT",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "uic_name": "Dietikon",
+        "uic_ref": "8503508",
+        "wheelchair": "yes",
+        "wikidata": "Q800666",
+        "wikimedia_commons": "Category:Dietikon railway station",
+        "wikipedia": "de:Bahnhof Dietikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.404922,
+          47.405805
+        ]
+      },
+      "id": "node/1219787004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1231420538",
+        "ele": "415",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Zürich Hardbrücke",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZHDB",
+        "uic_name": "Zürich Hardbrücke",
+        "uic_ref": "8503020",
+        "wheelchair": "yes",
+        "wikidata": "Q801678"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5173926,
+          47.3851609
+        ]
+      },
+      "id": "node/1231420538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1236383343",
+        "alt_name": "Zürich HB",
+        "ele": "408",
+        "iata": "ZLP",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Zürich Hauptbahnhof",
+        "name:tr": "Zürih Ana İstasyonu",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZUE",
+        "short_name": "Zürich HB",
+        "start_date": "1847-08-07",
+        "toilets:wheelchair": "yes",
+        "uic_name": "Zürich HB",
+        "uic_ref": "8503000",
+        "wheelchair": "yes",
+        "wikidata": "Q224494",
+        "wikipedia": "de:Zürich Hauptbahnhof"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5393635,
+          47.3781008
+        ]
+      },
+      "id": "node/1236383343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1239733410",
+        "ele": "411",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Zürich Stadelhofen",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZSTH",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "uic_name": "Zürich Stadelhofen",
+        "uic_ref": "8503003",
+        "wheelchair": "yes",
+        "wikidata": "Q673228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5483858,
+          47.3665643
+        ]
+      },
+      "id": "node/1239733410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1239941343",
+        "ele": "450",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Stettbach",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "STET",
+        "uic_name": "Stettbach",
+        "uic_ref": "8503147",
+        "wheelchair": "yes",
+        "wikidata": "Q801466"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5961074,
+          47.3971522
+        ]
+      },
+      "id": "node/1239941343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1240218104",
+        "ele": "431",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Wallisellen",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WS",
+        "uic_name": "Wallisellen",
+        "uic_ref": "8503129",
+        "wheelchair": "yes",
+        "wikidata": "Q801576",
+        "wikimedia_commons": "Category:Wallisellen railway station",
+        "wikipedia": "de:Bahnhof Wallisellen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5923797,
+          47.412625
+        ]
+      },
+      "id": "node/1240218104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1240254898",
+        "ele": "427",
+        "name": "Opfikon",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "OP",
+        "train": "yes",
+        "uic_name": "Opfikon",
+        "uic_ref": "8503340",
+        "wheelchair": "yes",
+        "wikidata": "Q1771424"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5618129,
+          47.4299507
+        ]
+      },
+      "id": "node/1240254898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1240260092",
+        "covered": "yes",
+        "ele": "430",
+        "level": "-2",
+        "name": "Zürich Flughafen",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZFH",
+        "uic_name": "Zürich Flughafen",
+        "uic_ref": "8503016",
+        "wheelchair": "yes",
+        "wikidata": "Q40700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5618985,
+          47.4500978
+        ]
+      },
+      "id": "node/1240260092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1240269753",
+        "ele": "447",
+        "name": "Kloten",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "KL",
+        "train": "yes",
+        "uic_name": "Kloten",
+        "uic_ref": "8503308",
+        "wheelchair": "limited",
+        "wikidata": "Q1771183",
+        "wikimedia_commons": "Category:Kloten railway station",
+        "wikipedia": "en:Kloten railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5837678,
+          47.4486581
+        ]
+      },
+      "id": "node/1240269753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1240277150",
+        "ele": "455",
+        "name": "Bassersdorf",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BSD",
+        "uic_name": "Bassersdorf",
+        "uic_ref": "8503307",
+        "wheelchair": "yes",
+        "wikidata": "Q15088450",
+        "wikimedia_commons": "Category:Bassersdorf railway station",
+        "wikipedia": "en:Bassersdorf railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6264391,
+          47.4385958
+        ]
+      },
+      "id": "node/1240277150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1240354282",
+        "ele": "445",
+        "name": "Dietlikon",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "DTL",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "uic_name": "Dietlikon",
+        "uic_ref": "8503306",
+        "wheelchair": "yes",
+        "wikidata": "Q1960552",
+        "wikimedia_commons": "Category:Dietlikon railway station",
+        "wikipedia": "en:Dietlikon railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6191982,
+          47.4201837
+        ]
+      },
+      "id": "node/1240354282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241005663",
+        "ele": "511",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Effretikon",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "EF",
+        "train": "yes",
+        "uic_name": "Effretikon",
+        "uic_ref": "8503305",
+        "wheelchair": "yes",
+        "wikidata": "Q5347522",
+        "wikimedia_commons": "Category:Effretikon railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6870086,
+          47.4257472
+        ]
+      },
+      "id": "node/1241005663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241075021",
+        "ele": "469",
+        "name": "Kemptthal",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "KE",
+        "train": "yes",
+        "uic_name": "Kemptthal",
+        "uic_ref": "8503304",
+        "wikidata": "Q15083538"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7058075,
+          47.4528517
+        ]
+      },
+      "id": "node/1241075021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1246649935",
+        "ele": "517",
+        "name": "Illnau",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "IL",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "uic_name": "Illnau",
+        "uic_ref": "8503303",
+        "wheelchair": "yes",
+        "wikidata": "Q6000178"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7227071,
+          47.4088849
+        ]
+      },
+      "id": "node/1246649935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1246927285",
+        "ele": "531",
+        "name": "Fehraltorf",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "FET",
+        "train": "yes",
+        "uic_name": "Fehraltorf",
+        "uic_ref": "8503302",
+        "wheelchair": "yes",
+        "wikidata": "Q15082526"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7500307,
+          47.385153
+        ]
+      },
+      "id": "node/1246927285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1247061685",
+        "ele": "547",
+        "name": "Pfäffikon",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "PFZ",
+        "train": "yes",
+        "uic_name": "Pfäffikon ZH",
+        "uic_ref": "8503301",
+        "wikidata": "Q15082377"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7847073,
+          47.3671002
+        ]
+      },
+      "id": "node/1247061685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1247149601",
+        "ele": "552",
+        "name": "Kempten",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "KN",
+        "train": "yes",
+        "uic_name": "Kempten",
+        "uic_ref": "8503300",
+        "wheelchair": "yes",
+        "wikidata": "Q6387141",
+        "wikimedia_commons": "Category:Kempten railway station",
+        "wikipedia": "en:Kempten railway station (Switzerland)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8047716,
+          47.3320309
+        ]
+      },
+      "id": "node/1247149601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1247229579",
+        "ele": "532",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Wetzikon",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WZ",
+        "uic_name": "Wetzikon ZH",
+        "uic_ref": "8503123",
+        "wheelchair": "yes",
+        "wheelchair:description": "Nur nit Voranmldung Einstieg möglich, ausser es sind Züge der neusten Generation, da kommt man mit etwas Übung auch alleine rein (5-8cm Spalt)",
+        "wikidata": "Q2032616",
+        "wikimedia_commons": "Category:Wetzikon railway station",
+        "wikipedia": "en:Wetzikon railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7922663,
+          47.3180931
+        ]
+      },
+      "id": "node/1247229579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1247695897",
+        "ele": "506",
+        "name": "Aathal",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "AAT",
+        "uic_name": "Aathal",
+        "uic_ref": "8503124",
+        "wheelchair": "yes",
+        "wikidata": "Q5845572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7662781,
+          47.3356752
+        ]
+      },
+      "id": "node/1247695897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1248313818",
+        "ele": "464",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Uster",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "UST",
+        "train": "yes",
+        "uic_name": "Uster",
+        "uic_ref": "8503125",
+        "wheelchair": "yes",
+        "wikidata": "Q555254",
+        "wikimedia_commons": "Category:Uster railway station",
+        "wikipedia": "de:Bahnhof Uster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7179334,
+          47.3508125
+        ]
+      },
+      "id": "node/1248313818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1248429948",
+        "ele": "443",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Schwerzenbach",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SCWE",
+        "train": "yes",
+        "uic_name": "Schwerzenbach ZH",
+        "uic_ref": "8503127",
+        "wikidata": "Q5847212",
+        "wikimedia_commons": "Category:Schwerzenbach ZH railway station",
+        "wikipedia": "en:Schwerzenbach railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6587009,
+          47.3844343
+        ]
+      },
+      "id": "node/1248429948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1248535234",
+        "ele": "440",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Dübendorf",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "DUE",
+        "uic_name": "Dübendorf",
+        "uic_ref": "8503128",
+        "wheelchair": "yes",
+        "wikidata": "Q1961198",
+        "wikimedia_commons": "Category:Dübendorf railway station",
+        "wikipedia": "en:Dübendorf railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6234006,
+          47.4000538
+        ]
+      },
+      "id": "node/1248535234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1261444104",
+        "addr:housenumber": "1",
+        "addr:street": "Sihlbrücke",
+        "covered": "yes",
+        "ele": "398",
+        "fixme": "stairs and elevators",
+        "name": "Zürich Selnau",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZSEL",
+        "train": "yes",
+        "uic_name": "Zürich Selnau",
+        "uic_ref": "8503090",
+        "wheelchair": "yes",
+        "wikidata": "Q637602"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5318556,
+          47.3724695
+        ]
+      },
+      "id": "node/1261444104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1261444152",
+        "ele": "421",
+        "name": "Zürich Binz",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZBZ",
+        "uic_name": "Zürich Binz",
+        "uic_ref": "8503051",
+        "wheelchair": "yes",
+        "wikidata": "Q8076076"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5180854,
+          47.3628473
+        ]
+      },
+      "id": "node/1261444152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1261981415",
+        "alt_name": "Zürich Triemli SZU",
+        "description": "Haltestelle der S10 Uetlibergbahn (SZU). Befindet sich etwa 400 Meter von der fast gleichnamigen Tram- und Bushaltestelle 'Zürich, Triemli' entfernt.",
+        "ele": "485",
+        "name": "Zürich Triemli",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "TRLI",
+        "train": "yes",
+        "uic_name": "Zürich Triemli",
+        "uic_ref": "8503054",
+        "wheelchair": "yes",
+        "wikidata": "Q8076081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4953498,
+          47.3649741
+        ]
+      },
+      "id": "node/1261981415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1264771132",
+        "ele": "418",
+        "name": "Zürich Giesshübel",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZGH",
+        "uic_name": "Zürich Giesshübel",
+        "uic_ref": "8503091",
+        "wheelchair": "yes",
+        "wikidata": "Q801675"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5220149,
+          47.3626083
+        ]
+      },
+      "id": "node/1264771132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1264808495",
+        "ele": "420",
+        "name": "Zürich Saalsporthalle",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZSAA",
+        "uic_name": "Zürich Saalsporthalle",
+        "uic_ref": "8503087",
+        "wikidata": "Q8076079"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5218339,
+          47.3580067
+        ]
+      },
+      "id": "node/1264808495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1264882620",
+        "check_date:wheelchair": "2021-06-23",
+        "ele": "422",
+        "name": "Zürich Brunau",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZBRU",
+        "train": "yes",
+        "uic_name": "Zürich Brunau",
+        "uic_ref": "8503086",
+        "wheelchair": "no",
+        "wikidata": "Q8075390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5262233,
+          47.3515976
+        ]
+      },
+      "id": "node/1264882620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1265011513",
+        "ele": "435",
+        "name": "Zürich Leimbach",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZLE",
+        "train": "yes",
+        "uic_name": "Zürich Leimbach",
+        "uic_ref": "8503094",
+        "wheelchair": "yes",
+        "wikidata": "Q8075395"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5187267,
+          47.3330734
+        ]
+      },
+      "id": "node/1265011513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1265111168",
+        "ele": "452",
+        "name": "Adliswil",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ADW",
+        "train": "yes",
+        "uic_name": "Adliswil",
+        "uic_ref": "8503096",
+        "wheelchair": "yes",
+        "wikidata": "Q4683323"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.524082,
+          47.3123072
+        ]
+      },
+      "id": "node/1265111168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1265471983",
+        "ele": "488",
+        "name": "Sihlwald",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SIW",
+        "train": "yes",
+        "uic_name": "Sihlwald",
+        "uic_ref": "8503098",
+        "wheelchair": "yes",
+        "wikidata": "Q7513438"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5576283,
+          47.2683235
+        ]
+      },
+      "id": "node/1265471983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1265472081",
+        "ele": "468",
+        "name": "Langnau-Gattikon",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LNG",
+        "train": "yes",
+        "uic_name": "Langnau-Gattikon",
+        "uic_ref": "8503097",
+        "wheelchair": "yes",
+        "wikidata": "Q10640352"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5439885,
+          47.2874358
+        ]
+      },
+      "id": "node/1265472081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1270323047",
+        "addr:city": "Zürich",
+        "addr:postcode": "8004",
+        "ele": "405",
+        "name": "Zürich Wiedikon",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZWIE",
+        "train": "yes",
+        "uic_name": "Zürich Wiedikon",
+        "uic_ref": "8503011",
+        "wheelchair": "yes",
+        "wikidata": "Q679393"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5230648,
+          47.3717117
+        ]
+      },
+      "id": "node/1270323047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1270614835",
+        "ele": "409",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Zürich Enge",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZEN",
+        "uic_name": "Zürich Enge",
+        "uic_ref": "8503010",
+        "wheelchair": "yes",
+        "wikidata": "Q801676"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5307605,
+          47.3641833
+        ]
+      },
+      "id": "node/1270614835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1273164743",
+        "ele": "460",
+        "name": "Oberrieden Dorf",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "uic_name": "Oberrieden Dorf",
+        "uic_ref": "8502209",
+        "wikidata": "Q7074806",
+        "wikimedia_commons": "Category:Oberrieden Dorf railway station",
+        "wikipedia": "en:Oberrieden Dorf railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5775571,
+          47.276842
+        ]
+      },
+      "id": "node/1273164743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1273321595",
+        "addr:city": "Horgen",
+        "addr:postcode": "8810",
+        "addr:street": "Oberdorfstrasse",
+        "check_date:wheelchair": "2023-07-10",
+        "ele": "484",
+        "name": "Horgen Oberdorf",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "HGO",
+        "train": "yes",
+        "uic_name": "Horgen Oberdorf",
+        "uic_ref": "8502208",
+        "wheelchair": "no",
+        "wikidata": "Q15225131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5900025,
+          47.2586692
+        ]
+      },
+      "id": "node/1273321595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1286602751",
+        "ele": "439",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Winterthur",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "W",
+        "uic_name": "Winterthur",
+        "uic_ref": "8506000",
+        "website": "https://www.sbb.ch/bahnhof-services/am-bahnhof/bahnhof/weitere-bahnhoefe/bahnhof-winterthur.html",
+        "wheelchair": "yes",
+        "wikidata": "Q677527",
+        "wikipedia": "de:Bahnhof Winterthur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7239736,
+          47.5003138
+        ]
+      },
+      "id": "node/1286602751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1291611923",
+        "ele": "408",
+        "name": "Zürich Tiefenbrunnen",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZTB",
+        "train": "yes",
+        "uic_name": "Zürich Tiefenbrunnen",
+        "uic_ref": "8503004",
+        "wheelchair": "limited",
+        "wikidata": "Q505460"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5613415,
+          47.3501172
+        ]
+      },
+      "id": "node/1291611923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1293202658",
+        "addr:city": "Zürich",
+        "ele": "442",
+        "name": "Zürich Seebach",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZSEB",
+        "train": "yes",
+        "uic_name": "Zürich Seebach",
+        "uic_ref": "8503007",
+        "wheelchair": "yes",
+        "wikidata": "Q250500",
+        "wikimedia_commons": "Category:Zürich Seebach railway station",
+        "wikipedia": "de:Bahnhof Zürich Seebach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5442186,
+          47.4185872
+        ]
+      },
+      "id": "node/1293202658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1293232953",
+        "bin": "yes",
+        "ele": "456",
+        "name": "Zürich Affoltern",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZAF",
+        "shelter": "yes",
+        "uic_name": "Zürich Affoltern",
+        "uic_ref": "8503008",
+        "wheelchair": "yes",
+        "wikidata": "Q1771435"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5081772,
+          47.4209007
+        ]
+      },
+      "id": "node/1293232953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295126213",
+        "ele": "442",
+        "name": "Regensdorf-Watt",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "REG",
+        "uic_name": "Regensdorf-Watt",
+        "uic_ref": "8503526",
+        "wheelchair": "yes",
+        "wikidata": "Q1771429"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4722646,
+          47.4363997
+        ]
+      },
+      "id": "node/1295126213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295286856",
+        "ele": "440",
+        "name": "Buchs-Dällikon",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BUD",
+        "uic_name": "Buchs-Dällikon",
+        "uic_ref": "8503527",
+        "wikidata": "Q1771486"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4373058,
+          47.4532818
+        ]
+      },
+      "id": "node/1295286856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295889766",
+        "ele": "427",
+        "name": "Otelfingen",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "OF",
+        "train": "yes",
+        "uic_name": "Otelfingen",
+        "uic_ref": "8503528",
+        "wikidata": "Q5846852"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3882578,
+          47.4549968
+        ]
+      },
+      "id": "node/1295889766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1300628760",
+        "ele": "415",
+        "name": "Zollikon",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZK",
+        "train": "yes",
+        "uic_name": "Zollikon",
+        "uic_ref": "8503100",
+        "wikidata": "Q8073578"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5694921,
+          47.3373683
+        ]
+      },
+      "id": "node/1300628760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1300646901",
+        "departures_board": "timetable",
+        "ele": "417",
+        "name": "Küsnacht Goldbach",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_name": "Küsnacht Goldbach",
+        "uic_ref": "8503141",
+        "wheelchair": "no",
+        "wikidata": "Q6454193"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5757474,
+          47.3268474
+        ]
+      },
+      "id": "node/1300646901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1300717238",
+        "departures_board": "realtime",
+        "ele": "415",
+        "name": "Küsnacht",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "KUES",
+        "train": "yes",
+        "uic_name": "Küsnacht ZH",
+        "uic_ref": "8503101",
+        "wheelchair": "yes",
+        "wikidata": "Q6454194",
+        "wikimedia_commons": "Category:Küsnacht ZH railway station",
+        "wikipedia": "en:Küsnacht ZH railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5805561,
+          47.3191246
+        ]
+      },
+      "id": "node/1300717238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1305029643",
+        "ele": "419",
+        "name": "Erlenbach",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ERLB",
+        "train": "yes",
+        "uic_name": "Erlenbach ZH",
+        "uic_ref": "8503102",
+        "wheelchair": "yes",
+        "wikidata": "Q15089930",
+        "wikimedia_commons": "Category:Erlenbach ZH railway station",
+        "wikipedia": "en:Erlenbach ZH railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5914617,
+          47.3057693
+        ]
+      },
+      "id": "node/1305029643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1305115032",
+        "departures_board": "timetable",
+        "ele": "520",
+        "name": "Winkel",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "uic_name": "Winkel am Zürichsee",
+        "uic_ref": "8503111",
+        "wikidata": "Q15089925",
+        "wikimedia_commons": "Category:Winkel am Zürichsee railway station",
+        "wikipedia": "en:Winkel am Zürichsee railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.598947,
+          47.297289
+        ]
+      },
+      "id": "node/1305115032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1305607315",
+        "departures_board": "timetable",
+        "ele": "423",
+        "name": "Herrliberg-Feldmeilen",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "HERL",
+        "train": "yes",
+        "uic_name": "Herrliberg-Feldmeilen",
+        "uic_ref": "8503103",
+        "wheelchair": "limited",
+        "wikidata": "Q15089920",
+        "wikimedia_commons": "Category:Herrliberg-Feldmeilen railway station",
+        "wikipedia": "en:Herrliberg-Feldmeilen railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6126897,
+          47.2817974
+        ]
+      },
+      "id": "node/1305607315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1305660372",
+        "departures_board": "realtime",
+        "departures_board:speech_output": "yes",
+        "ele": "420",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Meilen",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ML",
+        "uic_name": "Meilen",
+        "uic_ref": "8503104",
+        "wheelchair": "yes",
+        "wikidata": "Q4405750",
+        "wikimedia_commons": "Category:Meilen railway station",
+        "wikipedia": "de:Bahnhof Meilen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6442022,
+          47.2696451
+        ]
+      },
+      "id": "node/1305660372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1305717852",
+        "ele": "414",
+        "name": "Uetikon",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "UET",
+        "train": "yes",
+        "uic_name": "Uetikon",
+        "uic_ref": "8503105",
+        "wheelchair": "yes",
+        "wikidata": "Q5847377",
+        "wikimedia_commons": "Category:Uetikon railway station",
+        "wikipedia": "en:Uetikon railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6788756,
+          47.2591379
+        ]
+      },
+      "id": "node/1305717852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1309502573",
+        "ele": "452",
+        "name": "Winterthur Grüze",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WGR",
+        "uic_name": "Winterthur Grüze",
+        "uic_ref": "8506001",
+        "wikidata": "Q801617"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7510097,
+          47.4987187
+        ]
+      },
+      "id": "node/1309502573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1310783650",
+        "departures_board": "timetable",
+        "ele": "468",
+        "name": "Winterthur Seen",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WSEE",
+        "train": "yes",
+        "uic_name": "Winterthur Seen",
+        "uic_ref": "8506002",
+        "wheelchair": "limited",
+        "wikidata": "Q801618",
+        "wikimedia_commons": "Category:Winterthur Seen railway station",
+        "wikipedia": "Bahnhof Winterthur Seen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7667533,
+          47.4874314
+        ]
+      },
+      "id": "node/1310783650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1311007154",
+        "ele": "457",
+        "name": "Oberwinterthur",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "OWT",
+        "uic_name": "Oberwinterthur",
+        "uic_ref": "8506016",
+        "wheelchair": "yes",
+        "wikidata": "Q801283"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7601154,
+          47.5076729
+        ]
+      },
+      "id": "node/1311007154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1313973484",
+        "ele": "455",
+        "name": "Seuzach",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SEU",
+        "uic_name": "Seuzach",
+        "uic_ref": "8506020",
+        "wheelchair": "yes",
+        "wikidata": "Q5847239"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7390219,
+          47.5356393
+        ]
+      },
+      "id": "node/1313973484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1317308966",
+        "ele": "394",
+        "name": "Dachsen",
+        "network": "ZVV;FlexTax",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "DA",
+        "uic_name": "Dachsen",
+        "uic_ref": "8506049",
+        "wikidata": "Q5207606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6138781,
+          47.6670802
+        ]
+      },
+      "id": "node/1317308966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1317339977",
+        "ele": "412",
+        "name": "Marthalen",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "MTL",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "uic_name": "Marthalen",
+        "uic_ref": "8506048",
+        "wheelchair": "yes",
+        "wikidata": "Q6774635",
+        "wikimedia_commons": "Category:Marthalen railway station",
+        "wikipedia": "en:Marthalen railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6560693,
+          47.6312227
+        ]
+      },
+      "id": "node/1317339977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1317354601",
+        "ele": "402",
+        "name": "Andelfingen",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "AN",
+        "uic_name": "Andelfingen",
+        "uic_ref": "8506047",
+        "wheelchair": "yes",
+        "wikidata": "Q4753679"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6779013,
+          47.5937702
+        ]
+      },
+      "id": "node/1317354601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1317425466",
+        "ele": "434",
+        "name": "Henggart",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "HGT",
+        "train": "yes",
+        "uic_name": "Henggart",
+        "uic_ref": "8506046",
+        "wheelchair": "yes",
+        "wikidata": "Q5714280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6850343,
+          47.5645005
+        ]
+      },
+      "id": "node/1317425466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1317463581",
+        "ele": "425",
+        "name": "Hettlingen",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "HET",
+        "train": "yes",
+        "uic_name": "Hettlingen",
+        "uic_ref": "8506045",
+        "wikidata": "Q5748058"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6947652,
+          47.5453546
+        ]
+      },
+      "id": "node/1317463581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1319059823",
+        "ele": "488",
+        "name": "Birmensdorf",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BIR",
+        "uic_name": "Birmensdorf ZH",
+        "uic_ref": "8502221",
+        "wikidata": "Q4916567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4373921,
+          47.357448
+        ]
+      },
+      "id": "node/1319059823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1321496221",
+        "ele": "432",
+        "name": "Glattbrugg",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "GLB",
+        "train": "yes",
+        "uic_name": "Glattbrugg",
+        "uic_ref": "8503310",
+        "wheelchair": "yes",
+        "wikidata": "Q5567244",
+        "wikimedia_commons": "Category:Glattbrugg railway station",
+        "wikipedia": "en:Glattbrugg railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5589291,
+          47.4308526
+        ]
+      },
+      "id": "node/1321496221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1321840643",
+        "departures_board": "timetable",
+        "ele": "430",
+        "name": "Rümlang",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "RUEM",
+        "train": "yes",
+        "uic_name": "Rümlang",
+        "uic_ref": "8503311",
+        "wheelchair": "yes",
+        "wikidata": "Q15108737",
+        "wikimedia_commons": "Category:Rümlang railway station",
+        "wikipedia": "en:Rümlang railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5326777,
+          47.4540679
+        ]
+      },
+      "id": "node/1321840643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1327631013",
+        "ele": "430",
+        "name": "Oberglatt",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "OGL",
+        "train": "yes",
+        "uic_name": "Oberglatt ZH",
+        "uic_ref": "8503312",
+        "wheelchair": "yes",
+        "wikidata": "Q15094361",
+        "wikimedia_commons": "Category:Oberglatt railway station",
+        "wikipedia": "en:Oberglatt railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.510537,
+          47.4704172
+        ]
+      },
+      "id": "node/1327631013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1328354702",
+        "ele": "429",
+        "name": "Dielsdorf",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "DI",
+        "train": "yes",
+        "uic_name": "Dielsdorf",
+        "uic_ref": "8503315",
+        "wikidata": "Q5274922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4593678,
+          47.4824141
+        ]
+      },
+      "id": "node/1328354702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1328512534",
+        "addr:city": "Niederweningen",
+        "addr:country": "CH",
+        "addr:housenumber": "71",
+        "addr:postcode": "8166",
+        "addr:street": "Wehntalerstrasse",
+        "building:levels": "1",
+        "ele": "444",
+        "name": "Niederweningen",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "NW",
+        "roof:shape": "flat",
+        "train": "yes",
+        "uic_name": "Niederweningen",
+        "uic_ref": "8503319",
+        "wikidata": "Q7031189",
+        "wikimedia_commons": "Category:Niederweningen railway station",
+        "wikipedia": "en:Niederweningen railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3694229,
+          47.5113458
+        ]
+      },
+      "id": "node/1328512534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1329658757",
+        "ele": "424",
+        "name": "Niederglatt",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "NG",
+        "uic_name": "Niederglatt ZH",
+        "uic_ref": "8503313",
+        "wikidata": "Q15094352"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5031904,
+          47.4874769
+        ]
+      },
+      "id": "node/1329658757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1329773238",
+        "ele": "428",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Bülach",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BUE",
+        "uic_name": "Bülach",
+        "uic_ref": "8503400",
+        "wheelchair": "yes",
+        "wikidata": "Q1097222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5365546,
+          47.5237734
+        ]
+      },
+      "id": "node/1329773238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1330470648",
+        "ele": "423",
+        "name": "Embrach-Rorbas",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "EMB",
+        "uic_name": "Embrach-Rorbas",
+        "uic_ref": "8506041",
+        "wheelchair": "no",
+        "wikidata": "Q13423578"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5870215,
+          47.5205595
+        ]
+      },
+      "id": "node/1330470648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1330676298",
+        "ele": "422",
+        "name": "Winterthur Wülflingen",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WWUE",
+        "uic_name": "Winterthur Wülflingen",
+        "uic_ref": "8506043",
+        "wheelchair": "no",
+        "wheelchair:description": "Bahnsteigkante befindet sich auf Gleisniveau und ist mit Stufen ausgestattet.",
+        "wikidata": "Q801620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6809643,
+          47.5064599
+        ]
+      },
+      "id": "node/1330676298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1330704266",
+        "ele": "435",
+        "name": "Winterthur Töss",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WTOE",
+        "uic_name": "Winterthur Töss",
+        "uic_ref": "8506044",
+        "wheelchair": "no",
+        "wikidata": "Q801619"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7092798,
+          47.4897747
+        ]
+      },
+      "id": "node/1330704266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1345694391",
+        "ele": "410",
+        "name": "Au",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "AU",
+        "train": "yes",
+        "uic_name": "Au ZH",
+        "uic_ref": "8503205",
+        "wheelchair": "yes",
+        "wheelchair:description": "Rampe von Bahnhofplatz zur Unterführung sehr steil;Lift (nur) von Unterführung zu Bahnsteig. S-Bahn",
+        "wikidata": "Q2157807",
+        "wikimedia_commons": "Category:Au ZH railway station",
+        "wikipedia": "en:Au ZH railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6436487,
+          47.2467896
+        ]
+      },
+      "id": "node/1345694391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1345880152",
+        "ele": "408",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "SBB Free",
+        "name": "Richterswil",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "RI",
+        "uic_name": "Richterswil",
+        "uic_ref": "8503207",
+        "wheelchair": "yes",
+        "wikidata": "Q2912665"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7074819,
+          47.208552
+        ]
+      },
+      "id": "node/1345880152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1348076004",
+        "ele": "414",
+        "name": "Stäfa",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "STAE",
+        "train": "yes",
+        "uic_name": "Stäfa",
+        "uic_ref": "8503107",
+        "wikidata": "Q5847287",
+        "wikimedia_commons": "Category:Stäfa railway station",
+        "wikipedia": "en:Stäfa railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7216408,
+          47.2404715
+        ]
+      },
+      "id": "node/1348076004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1348149623",
+        "ele": "426",
+        "name": "Uerikon",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "UER",
+        "train": "yes",
+        "uic_name": "Uerikon",
+        "uic_ref": "8503108",
+        "wikidata": "Q10640359",
+        "wikimedia_commons": "Category:Uerikon railway station",
+        "wikipedia": "en:Uerikon railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7526216,
+          47.2358983
+        ]
+      },
+      "id": "node/1348149623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1348193962",
+        "ele": "426",
+        "name": "Feldbach",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "FB",
+        "train": "yes",
+        "uic_name": "Feldbach",
+        "uic_ref": "8503109",
+        "wikidata": "Q5441639",
+        "wikimedia_commons": "Category:Feldbach railway station",
+        "wikipedia": "en:Feldbach railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7830688,
+          47.2391708
+        ]
+      },
+      "id": "node/1348193962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1351838924",
+        "ele": "476",
+        "name": "Räterschen",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "RAET",
+        "train": "yes",
+        "uic_name": "Räterschen",
+        "uic_ref": "8506015",
+        "wikidata": "Q4348861",
+        "wikimedia_commons": "Category:Räterschen railway station",
+        "wikipedia": "en:Räterschen railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7951493,
+          47.498776
+        ]
+      },
+      "id": "node/1351838924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1351877724",
+        "ele": "486",
+        "name": "Schottikon",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SCHK",
+        "train": "yes",
+        "uic_name": "Schottikon",
+        "uic_ref": "8506035",
+        "wheelchair": "limited",
+        "wikidata": "Q5847205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8117369,
+          47.5001031
+        ]
+      },
+      "id": "node/1351877724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1352668875",
+        "ele": "512",
+        "name": "Rikon",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "RN",
+        "train": "yes",
+        "uic_name": "Rikon",
+        "uic_ref": "8506005",
+        "wikidata": "Q7334094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7964393,
+          47.4450079
+        ]
+      },
+      "id": "node/1352668875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1352757256",
+        "ele": "470",
+        "name": "Wiesendangen",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WD",
+        "uic_name": "Wiesendangen",
+        "uic_ref": "8506017",
+        "wheelchair": "no",
+        "wikidata": "Q5847529"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7760196,
+          47.5255307
+        ]
+      },
+      "id": "node/1352757256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1352769914",
+        "ele": "472",
+        "name": "Rickenbach-Attikon",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "RIK",
+        "uic_name": "Rickenbach-Attikon",
+        "uic_ref": "8506018",
+        "wheelchair": "limited",
+        "wikidata": "Q5847052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7890347,
+          47.5353733
+        ]
+      },
+      "id": "node/1352769914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1353867068",
+        "ele": "410",
+        "name": "Glattfelden",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "GF",
+        "train": "yes",
+        "uic_name": "Glattfelden",
+        "uic_ref": "8503401",
+        "wikidata": "Q5567247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5239614,
+          47.5491168
+        ]
+      },
+      "id": "node/1353867068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1353944373",
+        "ele": "390",
+        "name": "Eglisau",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "EGL",
+        "train": "yes",
+        "uic_name": "Eglisau",
+        "uic_ref": "8503402",
+        "wheelchair": "limited",
+        "wikidata": "Q5348085",
+        "wikimedia_commons": "Category:Eglisau railway station",
+        "wikipedia": "en:Eglisau railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5165257,
+          47.572436
+        ]
+      },
+      "id": "node/1353944373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1354055720",
+        "ele": "393",
+        "name": "Hüntwangen-Wil",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "HUEW",
+        "uic_name": "Hüntwangen-Wil",
+        "uic_ref": "8503403",
+        "wheelchair": "no",
+        "wikidata": "Q5964939"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5126794,
+          47.5811886
+        ]
+      },
+      "id": "node/1354055720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1354086304",
+        "ele": "424",
+        "name": "Rafz",
+        "name:de": "Rafz",
+        "name:lt": "Rafcas",
+        "network": "ZVV;FlexTax",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "RZ",
+        "uic_name": "Rafz",
+        "uic_ref": "8503404",
+        "wheelchair": "yes",
+        "wikidata": "Q7282749"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5433523,
+          47.6038125
+        ]
+      },
+      "id": "node/1354086304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1492349416",
+        "ele": "548",
+        "name": "Egg",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "EGG",
+        "uic_name": "Egg",
+        "uic_ref": "8503062",
+        "wheelchair": "yes",
+        "wikidata": "Q33455854"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6896369,
+          47.3016366
+        ]
+      },
+      "id": "node/1492349416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1492349431",
+        "ele": "563",
+        "light_rail": "yes",
+        "name": "Hinteregg",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "HINT",
+        "station": "light_rail",
+        "toilets:wheelchair": "no",
+        "uic_name": "Hinteregg",
+        "uic_ref": "8503063",
+        "wheelchair": "limited",
+        "wikidata": "Q33455872"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.684208,
+          47.3057917
+        ]
+      },
+      "id": "node/1492349431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2132037878",
+        "ele": "659",
+        "light_rail": "yes",
+        "name": "Zumikon",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZUM",
+        "station": "light_rail",
+        "train": "yes",
+        "uic_name": "Zumikon",
+        "uic_ref": "8503066",
+        "uzh_landmark": "true",
+        "wikidata": "Q33455933"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.623614,
+          47.3320659
+        ]
+      },
+      "id": "node/2132037878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2132070272",
+        "ele": "689",
+        "light_rail": "yes",
+        "name": "Forch",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "FCH",
+        "station": "light_rail",
+        "uic_name": "Forch",
+        "uic_ref": "8503065",
+        "wikidata": "Q23001746"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6480893,
+          47.3252232
+        ]
+      },
+      "id": "node/2132070272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2132070273",
+        "ele": "659",
+        "light_rail": "yes",
+        "name": "Maiacher",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "MAIF",
+        "station": "light_rail",
+        "uic_name": "Maiacher",
+        "uic_ref": "8503068",
+        "wikidata": "Q33455979"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6312121,
+          47.3281674
+        ]
+      },
+      "id": "node/2132070273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2132070275",
+        "ele": "659",
+        "light_rail": "yes",
+        "name": "Scheuren",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SCRN",
+        "station": "light_rail",
+        "uic_name": "Scheuren",
+        "uic_ref": "8503064",
+        "wheelchair": "yes",
+        "wikidata": "Q33455893"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6595963,
+          47.3225086
+        ]
+      },
+      "id": "node/2132070275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2132070280",
+        "ele": "675",
+        "light_rail": "yes",
+        "name": "Neue Forch",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "NFCH",
+        "station": "light_rail",
+        "uic_name": "Neue Forch",
+        "uic_ref": "8503074",
+        "wikidata": "Q33456063"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6379333,
+          47.3257763
+        ]
+      },
+      "id": "node/2132070280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141115746",
+        "ele": "734",
+        "name": "Fischenthal",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "FI",
+        "uic_name": "Fischenthal",
+        "uic_ref": "8503136",
+        "wikidata": "Q15086148"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9232896,
+          47.3334192
+        ]
+      },
+      "id": "node/2141115746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141146352",
+        "ele": "616",
+        "name": "Wald ZH",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WL",
+        "uic_name": "Wald ZH",
+        "uic_ref": "8503138",
+        "wheelchair": "yes",
+        "wikidata": "Q7961361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9139616,
+          47.2727268
+        ]
+      },
+      "id": "node/2141146352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2291723099",
+        "ele": "427",
+        "name": "Otelfingen Golfpark",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "OFR",
+        "uic_name": "Otelfingen Golfpark",
+        "uic_ref": "8503525",
+        "wikidata": "Q5391049"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4020993,
+          47.4558122
+        ]
+      },
+      "id": "node/2291723099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2412401899",
+        "ele": "419",
+        "name": "Männedorf",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "uic_name": "Männedorf",
+        "uic_ref": "8503106",
+        "wheelchair": "yes",
+        "wikidata": "Q4405921"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6927615,
+          47.2532897
+        ]
+      },
+      "id": "node/2412401899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2414247964",
+        "ele": "509",
+        "name": "Bubikon",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BUB",
+        "train": "yes",
+        "uic_name": "Bubikon",
+        "uic_ref": "8503122",
+        "wheelchair": "yes",
+        "wikidata": "Q4982310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8226755,
+          47.2708394
+        ]
+      },
+      "id": "node/2414247964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2414295811",
+        "ele": "565",
+        "name": "Hinwil",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "HI",
+        "toilets:wheelchair": "no",
+        "train": "yes",
+        "uic_name": "Hinwil",
+        "uic_ref": "8503130",
+        "wheelchair": "limited",
+        "wikidata": "Q5767755",
+        "wikimedia_commons": "Category:Hinwil railway station",
+        "wikipedia": "en:Hinwil railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8397603,
+          47.3000892
+        ]
+      },
+      "id": "node/2414295811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2425891024",
+        "ele": "369",
+        "name": "Zweidlen",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZWD",
+        "uic_name": "Zweidlen",
+        "uic_ref": "8503405",
+        "wheelchair": "yes",
+        "wikidata": "Q8075646"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4679199,
+          47.5704259
+        ]
+      },
+      "id": "node/2425891024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2443368760",
+        "ele": "600",
+        "name": "Saland",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SD",
+        "uic_name": "Saland",
+        "uic_ref": "8506009",
+        "wheelchair": "limited",
+        "wikidata": "Q15088567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8542313,
+          47.3942582
+        ]
+      },
+      "id": "node/2443368760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2446048209",
+        "ele": "550",
+        "name": "Turbenthal",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "TU",
+        "uic_name": "Turbenthal",
+        "uic_ref": "8506007",
+        "wikidata": "Q15088574"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8439327,
+          47.4373149
+        ]
+      },
+      "id": "node/2446048209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2446055623",
+        "ele": "569",
+        "name": "Wila",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WILA",
+        "uic_name": "Wila",
+        "uic_ref": "8506008",
+        "wheelchair": "yes",
+        "wikidata": "Q8000034",
+        "wikimedia_commons": "Category:Wila railway station",
+        "wikipedia": "Wila railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8485378,
+          47.4177834
+        ]
+      },
+      "id": "node/2446055623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2453133359",
+        "ele": "440",
+        "name": "Thalheim-Altikon",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "TLH",
+        "uic_name": "Thalheim-Altikon",
+        "uic_ref": "8506022",
+        "wheelchair": "yes",
+        "wikidata": "Q5847328"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7576593,
+          47.5695683
+        ]
+      },
+      "id": "node/2453133359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2455946411",
+        "ele": "427",
+        "name": "Ossingen",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "OSS",
+        "train": "yes",
+        "uic_name": "Ossingen",
+        "uic_ref": "8506023",
+        "wheelchair": "no",
+        "wikidata": "Q5846849"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7240978,
+          47.6145929
+        ]
+      },
+      "id": "node/2455946411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2456031550",
+        "ele": "433",
+        "name": "Stammheim",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "STM",
+        "uic_name": "Stammheim",
+        "uic_ref": "8506024",
+        "wheelchair": "yes",
+        "wikidata": "Q5847284"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7888414,
+          47.6348333
+        ]
+      },
+      "id": "node/2456031550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2475026135",
+        "ele": "409",
+        "name": "Feuerthalen",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "FT",
+        "uic_name": "Feuerthalen",
+        "uic_ref": "8503425",
+        "wikidata": "Q31449831"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6459368,
+          47.692149
+        ]
+      },
+      "id": "node/2475026135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2482900821",
+        "ele": "412",
+        "name": "Pfungen",
+        "old_name": "Pfungen-Neftenbach",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "PFU",
+        "uic_name": "Pfungen",
+        "uic_ref": "8506042",
+        "wikidata": "Q15094246",
+        "wikimedia_commons": "Category:Pfungen railway station",
+        "wikipedia": "en:Pfungen railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6466862,
+          47.5160774
+        ]
+      },
+      "id": "node/2482900821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3074774947",
+        "ele": "629",
+        "name": "Samstagern",
+        "network": "ZVV",
+        "operator": "SOB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SAM",
+        "uic_name": "Samstagern",
+        "uic_ref": "8503286",
+        "wikidata": "Q5493882"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6860081,
+          47.1916017
+        ]
+      },
+      "id": "node/3074774947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3074886740",
+        "ele": "424",
+        "name": "Kilchberg",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "KIL",
+        "uic_name": "Kilchberg ZH",
+        "uic_ref": "8503200",
+        "wheelchair": "yes",
+        "wikidata": "Q2110348"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5480578,
+          47.3244752
+        ]
+      },
+      "id": "node/3074886740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3074886742",
+        "ele": "424",
+        "name": "Oberrieden",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ORD",
+        "train": "yes",
+        "uic_name": "Oberrieden",
+        "uic_ref": "8503203",
+        "wikidata": "Q2110622"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5784107,
+          47.2796641
+        ]
+      },
+      "id": "node/3074886742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080372075",
+        "ele": "494",
+        "name": "Affoltern am Albis",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "AF",
+        "uic_name": "Affoltern am Albis",
+        "uic_ref": "8502224",
+        "wheelchair": "yes",
+        "wikidata": "Q2032410"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4468044,
+          47.2761701
+        ]
+      },
+      "id": "node/3080372075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080372080",
+        "ele": "528",
+        "internet_access": "no",
+        "name": "Bonstetten-Wettswil",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BON",
+        "uic_name": "Bonstetten-Wettswil",
+        "uic_ref": "8502222",
+        "wheelchair": "yes",
+        "wikidata": "Q4942600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4682433,
+          47.3258145
+        ]
+      },
+      "id": "node/3080372080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080372082",
+        "ele": "530",
+        "name": "Burghalden",
+        "network": "ZVV",
+        "operator": "SOB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BGH",
+        "uic_name": "Burghalden",
+        "uic_ref": "8503287",
+        "wikidata": "Q2157443"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6928484,
+          47.2086659
+        ]
+      },
+      "id": "node/3080372082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080372089",
+        "ele": "497",
+        "name": "Hedingen",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "HED",
+        "train": "yes",
+        "uic_name": "Hedingen",
+        "uic_ref": "8502223",
+        "wheelchair": "yes",
+        "wikidata": "Q5846360"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4459976,
+          47.2988097
+        ]
+      },
+      "id": "node/3080372089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080372090",
+        "ele": "409",
+        "name": "Horgen",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "HG",
+        "train": "yes",
+        "uic_name": "Horgen",
+        "uic_ref": "8503204",
+        "wheelchair": "limited",
+        "wikidata": "Q2157409"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5968943,
+          47.2614564
+        ]
+      },
+      "id": "node/3080372090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080372093",
+        "ele": "436",
+        "name": "Knonau",
+        "network": "ZVV;Tarifverbund Zug",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "KNO",
+        "uic_name": "Knonau",
+        "uic_ref": "8502226",
+        "wikidata": "Q5846446"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4667352,
+          47.2202662
+        ]
+      },
+      "id": "node/3080372093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080372097",
+        "ele": "433",
+        "name": "Rüschlikon",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "RUES",
+        "train": "yes",
+        "uic_name": "Rüschlikon",
+        "uic_ref": "8503201",
+        "wikidata": "Q2110655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5552815,
+          47.307024
+        ]
+      },
+      "id": "node/3080372097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080372101",
+        "ele": "435",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Thalwil",
+        "network": "ch-direct;ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "TW",
+        "uic_name": "Thalwil",
+        "uic_ref": "8503202",
+        "wikidata": "Q801512",
+        "wikimedia_commons": "Category:Thalwil railway station",
+        "wikipedia": "de:Bahnhof Thalwil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5648378,
+          47.296014
+        ]
+      },
+      "id": "node/3080372101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080372104",
+        "ele": "408",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Wädenswil",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WAE",
+        "train": "yes",
+        "uic_name": "Wädenswil",
+        "uic_ref": "8503206",
+        "wheelchair": "yes",
+        "wikidata": "Q2157839",
+        "wikipedia": "en:Wädenswil railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6751853,
+          47.2292959
+        ]
+      },
+      "id": "node/3080372104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080372105",
+        "ele": "399",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "name": "Zürich Altstetten",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZAS",
+        "uic_name": "Zürich Altstetten",
+        "uic_ref": "8503001",
+        "wheelchair": "yes",
+        "wikidata": "Q678652"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4893332,
+          47.3913167
+        ]
+      },
+      "id": "node/3080372105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080372106",
+        "ele": "409",
+        "name": "Zürich Wollishofen",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZWOL",
+        "train": "yes",
+        "uic_name": "Zürich Wollishofen",
+        "uic_ref": "8503009",
+        "wheelchair": "limited",
+        "wikidata": "Q801680",
+        "wikimedia_commons": "Category:Zürich Wollishofen railway station",
+        "wikipedia": "de:Bahnhof Zürich Wollishofen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5337381,
+          47.3477819
+        ]
+      },
+      "id": "node/3080372106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3080695761",
+        "ele": "442",
+        "name": "Urdorf",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "URD",
+        "train": "yes",
+        "uic_name": "Urdorf",
+        "uic_ref": "8502220",
+        "wikidata": "Q7900321",
+        "wikimedia_commons": "Category:Urdorf railway station",
+        "wikipedia": "en:Urdorf railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4347526,
+          47.3908516
+        ]
+      },
+      "id": "node/3080695761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3228473453",
+        "ele": "396",
+        "name": "Zürich HB SZU",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZUSZ",
+        "uic_name": "Zürich HB SZU",
+        "uic_ref": "8503088",
+        "wheelchair": "yes",
+        "wikidata": "Q33456193"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5394445,
+          47.3773718
+        ]
+      },
+      "id": "node/3228473453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3316140071",
+        "ele": "431",
+        "name": "Zürich Manegg",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZMA",
+        "train": "yes",
+        "uic_name": "Zürich Manegg",
+        "uic_ref": "8503093",
+        "wheelchair": "yes",
+        "wikidata": "Q8075397"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5197354,
+          47.3378276
+        ]
+      },
+      "id": "node/3316140071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3316144419",
+        "ele": "456",
+        "name": "Sihlau",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SIA",
+        "toilets:wheelchair": "no",
+        "train": "yes",
+        "uic_name": "Sihlau",
+        "uic_ref": "8503099",
+        "wheelchair": "yes",
+        "wikidata": "Q10640355"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5253036,
+          47.3032402
+        ]
+      },
+      "id": "node/3316144419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3316144420",
+        "ele": "443",
+        "name": "Sood-Oberleimbach",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SOOD",
+        "train": "yes",
+        "uic_name": "Sood-Oberleimbach",
+        "uic_ref": "8503095",
+        "wheelchair": "yes",
+        "wikidata": "Q10640357"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5214698,
+          47.3195841
+        ]
+      },
+      "id": "node/3316144420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3316144421",
+        "ele": "458",
+        "name": "Wildpark-Höfli",
+        "network": "ZVV",
+        "operator": "SZU",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WP",
+        "train": "yes",
+        "uic_name": "Wildpark-Höfli",
+        "uic_ref": "8503089",
+        "wheelchair": "yes",
+        "wikidata": "Q10640354"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5355864,
+          47.2965453
+        ]
+      },
+      "id": "node/3316144421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3882179348",
+        "light_rail": "yes",
+        "name": "Dietikon",
+        "operator": "BDWM",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "DTBD",
+        "station": "light_rail",
+        "uic_name": "Dietikon",
+        "uic_ref": "8519191",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4053982,
+          47.4048271
+        ]
+      },
+      "id": "node/3882179348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4415254993",
+        "ele": "393",
+        "name": "Schlieren",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SCHL",
+        "uic_name": "Schlieren",
+        "uic_ref": "8503509",
+        "wheelchair": "yes",
+        "wikidata": "Q1960753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4473957,
+          47.3991221
+        ]
+      },
+      "id": "node/4415254993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4416076342",
+        "ele": "425",
+        "name": "Zürich Wipkingen",
+        "network": "ZVV",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZWIP",
+        "uic_name": "Zürich Wipkingen",
+        "uic_ref": "8503015",
+        "wheelchair": "no",
+        "wikidata": "Q679416"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5293157,
+          47.3930555
+        ]
+      },
+      "id": "node/4416076342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4574932116",
+        "ele": "482",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "SBB",
+        "internet_access:ssid": "SBB-FREE",
+        "name": "Rüti",
+        "network": "ZVV",
+        "network:wikidata": "Q201977",
+        "operator": "SBB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "RUE",
+        "train": "yes",
+        "uic_name": "Rüti ZH",
+        "uic_ref": "8503121",
+        "wheelchair": "yes",
+        "wikidata": "Q7386787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8543594,
+          47.260352
+        ]
+      },
+      "id": "node/4574932116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5675880532",
+        "ele": "478",
+        "light_rail": "yes",
+        "name": "Esslingen",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ESSL",
+        "station": "light_rail",
+        "uic_name": "Esslingen",
+        "uic_ref": "8503060",
+        "wikidata": "Q23001754"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7100517,
+          47.2876566
+        ]
+      },
+      "id": "node/5675880532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5675880536",
+        "ele": "611",
+        "light_rail": "yes",
+        "name": "Zollikerberg",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZKBG",
+        "station": "light_rail",
+        "uic_name": "Zollikerberg",
+        "uic_ref": "8503067",
+        "wikidata": "Q33455956"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6035015,
+          47.3460605
+        ]
+      },
+      "id": "node/5675880536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5675880538",
+        "ele": "651",
+        "light_rail": "yes",
+        "name": "Waltikon",
+        "operator": "FB",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "WLTK",
+        "station": "light_rail",
+        "uic_name": "Waltikon",
+        "uic_ref": "8503075",
+        "wikidata": "Q33456087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6167926,
+          47.3369274
+        ]
+      },
+      "id": "node/5675880538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7984382984",
+        "elevator": "yes",
+        "funicular": "yes",
+        "halt": "monorail",
+        "level": "-2",
+        "monorail": "yes",
+        "name": "Airside Center",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "station": "funicular",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5602777,
+          47.4525417
+        ]
+      },
+      "id": "node/7984382984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12543644481",
+        "name": "Bäretswil",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8520184,
+          47.337367
+        ]
+      },
+      "id": "node/12543644481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12543702616",
+        "name": "Ettenhausen-Emmetschloo",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8344252,
+          47.3252762
+        ]
+      },
+      "id": "node/12543702616"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_488f9d52fc1aaed7f376124c3451131f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_488f9d52fc1aaed7f376124c3451131f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_488f9d52fc1aaed7f376124c3451131f = L.map(
+                "map_488f9d52fc1aaed7f376124c3451131f",
+                {
+                    center: [47.3769, 8.5417],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c36b6873cf8dda52473515e5d12556e8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c36b6873cf8dda52473515e5d12556e8.addTo(map_488f9d52fc1aaed7f376124c3451131f);
+        
+    
+            var marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_22963dd9ecf023412d326749195d01d6 = L.marker(
+                [47.335, 8.615000000000023],
+                {
+}
+            ).addTo(marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d);
+        
+    
+            var div_icon_707b96aab9ccbafdd6f2315f01023608 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_22963dd9ecf023412d326749195d01d6.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.636<br>Dist to Station: 253 m<br>Dist to SPAR: 5892 m<br>SPAR within 1km: 0.0<br>Competitors within 1km: 0.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_22963dd9ecf023412d326749195d01d6.setIcon(div_icon_707b96aab9ccbafdd6f2315f01023608);
+            
+    
+            var marker_257fc41533ca03a7cd43e045a1589bd6 = L.marker(
+                [47.33, 8.615000000000023],
+                {
+}
+            ).addTo(marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d);
+        
+    
+            var div_icon_1ed62f7c25c8043e2485bbe3ee3e4423 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_257fc41533ca03a7cd43e045a1589bd6.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.606<br>Dist to Station: 690 m<br>Dist to SPAR: 6277 m<br>SPAR within 1km: 0.0<br>Competitors within 1km: 0.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_257fc41533ca03a7cd43e045a1589bd6.setIcon(div_icon_1ed62f7c25c8043e2485bbe3ee3e4423);
+            
+    
+            var marker_805c686e3f4e51271bde66ca3b33d90e = L.marker(
+                [47.34, 8.615000000000023],
+                {
+}
+            ).addTo(marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d);
+        
+    
+            var div_icon_c897051788ed99e3e8d2e3b972ff14ba = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_805c686e3f4e51271bde66ca3b33d90e.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.590<br>Dist to Station: 367 m<br>Dist to SPAR: 5537 m<br>SPAR within 1km: 0.0<br>Competitors within 1km: 0.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_805c686e3f4e51271bde66ca3b33d90e.setIcon(div_icon_c897051788ed99e3e8d2e3b972ff14ba);
+            
+    
+            var marker_5645cfd4a3fa06d5ef9d4b24e668a0ca = L.marker(
+                [47.420000000000044, 8.615000000000023],
+                {
+}
+            ).addTo(marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d);
+        
+    
+            var div_icon_7bf3a0a67b12a6ed17c5384090e11002 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_5645cfd4a3fa06d5ef9d4b24e668a0ca.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.584<br>Dist to Station: 317 m<br>Dist to SPAR: 5485 m<br>SPAR within 1km: 0.0<br>Competitors within 1km: 0.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5645cfd4a3fa06d5ef9d4b24e668a0ca.setIcon(div_icon_7bf3a0a67b12a6ed17c5384090e11002);
+            
+    
+            var marker_9a6a7f09f6ac855b4be50ff73edd0c11 = L.marker(
+                [47.335, 8.610000000000023],
+                {
+}
+            ).addTo(marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d);
+        
+    
+            var div_icon_b0004ef0c12e5b71b54c3c4bcbca72c4 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_9a6a7f09f6ac855b4be50ff73edd0c11.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.575<br>Dist to Station: 556 m<br>Dist to SPAR: 5616 m<br>SPAR within 1km: 0.0<br>Competitors within 1km: 0.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9a6a7f09f6ac855b4be50ff73edd0c11.setIcon(div_icon_b0004ef0c12e5b71b54c3c4bcbca72c4);
+            
+    
+            var marker_68c816abde0b020bb37f79d9812e84cf = L.marker(
+                [47.42500000000005, 8.615000000000023],
+                {
+}
+            ).addTo(marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d);
+        
+    
+            var div_icon_81e98a7b8db5e45f6146193e94b25d7f = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_68c816abde0b020bb37f79d9812e84cf.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.560<br>Dist to Station: 622 m<br>Dist to SPAR: 5668 m<br>SPAR within 1km: 0.0<br>Competitors within 1km: 0.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_68c816abde0b020bb37f79d9812e84cf.setIcon(div_icon_81e98a7b8db5e45f6146193e94b25d7f);
+            
+    
+            var marker_99d3283120d3027ff0b76d3d8a47e742 = L.marker(
+                [47.33, 8.610000000000023],
+                {
+}
+            ).addTo(marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d);
+        
+    
+            var div_icon_9542c256182ecd8c330ec5e6809c8d81 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_99d3283120d3027ff0b76d3d8a47e742.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.553<br>Dist to Station: 925 m<br>Dist to SPAR: 5948 m<br>SPAR within 1km: 0.0<br>Competitors within 1km: 0.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_99d3283120d3027ff0b76d3d8a47e742.setIcon(div_icon_9542c256182ecd8c330ec5e6809c8d81);
+            
+    
+            var marker_15ea9d62c189ad199a2d1a74bae4dbbc = L.marker(
+                [47.345000000000006, 8.605000000000022],
+                {
+}
+            ).addTo(marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d);
+        
+    
+            var div_icon_2641cbdf47577e065c2309dbdee8e482 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_15ea9d62c189ad199a2d1a74bae4dbbc.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.550<br>Dist to Station: 163 m<br>Dist to SPAR: 4599 m<br>SPAR within 1km: 0.0<br>Competitors within 1km: 0.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_15ea9d62c189ad199a2d1a74bae4dbbc.setIcon(div_icon_2641cbdf47577e065c2309dbdee8e482);
+            
+    
+            var marker_e2f6f441d8acae17404926c619cb1047 = L.marker(
+                [47.34, 8.610000000000023],
+                {
+}
+            ).addTo(marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d);
+        
+    
+            var div_icon_d18ca7d160ac71429c23d154097eaf64 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_e2f6f441d8acae17404926c619cb1047.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.535<br>Dist to Station: 616 m<br>Dist to SPAR: 5243 m<br>SPAR within 1km: 0.0<br>Competitors within 1km: 0.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e2f6f441d8acae17404926c619cb1047.setIcon(div_icon_d18ca7d160ac71429c23d154097eaf64);
+            
+    
+            var marker_2a70c8102df5f2c1a1d1b2cd58ffd8bd = L.marker(
+                [47.345000000000006, 8.610000000000023],
+                {
+}
+            ).addTo(marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d);
+        
+    
+            var div_icon_df23696597d1430a15d1b9c1f81cbf35 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            background-color:purple;\n            color:white;\n            font-weight:bold;\n            border-radius:50%;\n            text-align:center;\n            width:26px;\n            height:26px;\n            line-height:26px;\n            font-size:16px;\n        \"\u003e\u2b50\u003c/div\u003e\n    ",
+  "className": "empty",
+});
+        
+    
+            marker_2a70c8102df5f2c1a1d1b2cd58ffd8bd.bindTooltip(
+                `<div>
+                     ⭐ New SPAR Candidate<br>Score: 0.522<br>Dist to Station: 505 m<br>Dist to SPAR: 4904 m<br>SPAR within 1km: 0.0<br>Competitors within 1km: 0.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2a70c8102df5f2c1a1d1b2cd58ffd8bd.setIcon(div_icon_df23696597d1430a15d1b9c1f81cbf35);
+            
+    
+            marker_cluster_5f9fcd6e55d06a32dfcdb789e274e22d.addTo(map_488f9d52fc1aaed7f376124c3451131f);
+        
+</script>
+</html>
