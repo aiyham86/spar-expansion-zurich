@@ -368,7 +368,7 @@ with tab2:
     | **Forecast Population**   | Indicates future demand                  | 🔼 Higher is better   |
     | **Density Growth**        | Measures how fast demand is growing      | 🔼 Higher is better   |
     | **SPAR Coverage Rate**    | Shows how much SPAR is already present   | 🔽 Lower is better    |
-    | **People per Supermarket**| Indicates how competitive the market is  | 🔽 Lower is better    |
+    | **People per Supermarket**| Indicates how competitive the market is  | 🔼 Higher is better    |
 
     The final score combines these using custom weights:
     `30% Pop + 30% Growth + 20% SPAR Coverage + 20% Market Pressure`
@@ -415,7 +415,7 @@ with tab2:
     |---------------------------|---------------------------------------------|-------------------|
     | **Density**               | More dense = more concentrated demand      | 🔼 Higher is better |
     | **SPAR Coverage Rate**    | Lower = more room for SPAR                 | 🔽 Lower is better |
-    | **People per Supermarket**| Higher = more pressure on current supply   | 🔽 Lower is better |
+    | **People per Supermarket**| Higher = more pressure on current supply   | 🔼 Higher is better |
 
     We applied custom weights to these indicators:
     `50% Density + 20% SPAR Coverage + 30% Market Pressure`
@@ -534,19 +534,22 @@ with tab1:
             "name": "Location 1 – 275 m², Ground floor",
             "url": "https://en.comparis.ch/immobilien/marktplatz/details/show/34349760",
             "address": "Hohlstrasse 188, 8004 Zürich",
-            "note": "Larger unit suitable for full SPAR supermarket with loading access."
+            "note": "Larger unit suitable for full SPAR supermarket with loading access.",
+            "image": "location_1.png"
         },
         {
             "name": "Location 2 – 130 m², Ground floor",
             "url": "https://en.comparis.ch/immobilien/marktplatz/details/show/35021188",
             "address": "Zeughausstrasse 3, 8004 Zürich",
-            "note": "Great visibility, surrounded by residential buildings."
+            "note": "Great visibility, surrounded by residential buildings.",
+            "image": "location_2.png"
         },
         {
             "name": "Location 3 – 250 m², Ground floor ",
             "url": "https://en.comparis.ch/immobilien/marktplatz/details/show/34477585",
             "address": "Ernastrasse 22, 8004 Zürich",
-            "note": "Ideal for a medium-large SPAR format. High foot traffic area."
+            "note": "Ideal for a medium-large SPAR format. High foot traffic area.",
+            "image": "location_3.png"
         }
     ]
 
@@ -555,5 +558,6 @@ with tab1:
         st.markdown(f"📍 **Address:** {p['address']}")
         st.markdown(f"🔗 [View Listing]({p['url']})")
         st.markdown(f"📝 _{p['note']}_")
+        st.image(p["image"], use_column_width=10)
         st.markdown("---")
 
