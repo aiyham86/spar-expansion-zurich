@@ -305,24 +305,26 @@ with tab3:
 with tab4:
     st.subheader("📈 Population Summary")
 
-    # Split the layout: left for metrics, right for chart
-    col1, col2 = st.columns([1, 2])  # Wider right column
+    # Split layout: left for metrics, right for chart
+    col1, col2 = st.columns([1, 2])
 
     with col1:
-        unique_districts = forecast_df['district'].nunique()
-        years = forecast_df['year'].unique()
-        total_pop = population_by_district['Pop_Actual'].sum()
-        forecast_pop = population_by_district['Pop_Forecast'].sum()
-        growth_pct = (forecast_pop - total_pop) / total_pop * 100
+        unique_districts = population_by_district['district'].nunique()
+        total_pop_2023 = population_by_district['Pop_Actual'].sum()
+        total_pop_2050 = population_by_district['Pop_Forecast'].sum()
+        growth_pct = (total_pop_2050 - total_pop_2023) / total_pop_2023 * 100
 
         st.metric("Districts Covered", unique_districts)
-        st.metric("Population Years", f"{years.min()} - {years.max()}")
-        st.metric("Total Actual Population", f"{int(total_pop):,}")
-        st.metric("Total Forecast Population", f"{int(forecast_pop):,}")
+        st.metric("Population Years", "2023 - 2050")
+        st.metric("Total Actual Population", f"{int(total_pop_2023):,}")
+        st.metric("Total Forecast Population", f"{int(total_pop_2050):,}")
         st.metric("Projected Growth", f"{growth_pct:.2f}%")
 
     with col2:
-        forecast_only = forecast_df[forecast_df['data type'] == 'Pop_Forecast']
+        forecast_only = forecast_df[
+            (forecast_df['data type'] == 'Pop_Forecast') & 
+            (forecast_df['year'].between(2023, 2050))
+        ]
         pop_trend = forecast_only.groupby(['year', 'district'])['number'].sum().reset_index()
 
         fig = px.line(
@@ -338,24 +340,22 @@ with tab4:
     st.divider()
     st.subheader("📊 Summary for All Districts")
 
-    districts = population_by_district['district'].unique()
     cols = st.columns(3)
-
-    for i, district in enumerate(districts):
+    for i, row in population_by_district.iterrows():
         col = cols[i % 3]
-        data = forecast_df[forecast_df['district'] == district]
-        actual = data[data['data type'] == 'Pop_Actual']['number'].sum()
-        forecast = data[data['data type'] == 'Pop_Forecast']['number'].sum()
-        growth = (forecast - actual) / actual * 100
-        years = data['year'].unique()
+        district = row['district']
+        actual = row['Pop_Actual']
+        forecast = row['Pop_Forecast']
+        growth = row['growth_rate']
 
         with col:
             st.markdown(f"### {district}")
-            st.metric("Years", f"{years.min()} - {years.max()}")
+            st.metric("Years", "2023 - 2050")
             st.metric("Actual", f"{int(actual):,}")
             st.metric("Forecast", f"{int(forecast):,}")
             st.metric("Growth", f"{growth:.2f}%")
-            st.markdown("<br><br>", unsafe_allow_html=True)  # Add vertical space
+            st.markdown("<br><br>", unsafe_allow_html=True)
+
 
 with tab2:
     st.subheader("🏆 Top 5 Recommended Districts for SPAR")
